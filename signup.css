@@ -1,0 +1,77 @@
+.container {
+    text-align: center;
+    display: flex;
+    padding: 70px;
+    /* padding-left: 400px; */
+}
+.card-top{
+    background-color: antiquewhite;
+}
+body{
+    /* background-image: linear-gradient(to bottom right, rgb(136, 0, 255), rgb(0, 0, 0)); */
+    background-image: url("images/book2.jpg");
+    background-repeat: no-repeat;
+    background-size: 120%;
+    text-align: center;
+     font-family: "Lucida Console", "Courier New", monospace;
+}
+fieldset {
+    transition: ease-out 0.5s;
+    text-align: center;
+    background-color: rgba(0, 76, 255, 0.52);
+    border-radius: 40px;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    /* background-image: url("images/book3.jfif"); */
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(172, 173, 146));
+    box-shadow: 10px 10px;
+}
+fieldset:hover{
+    animation-name: design;
+    transform: scale(1.2);
+    animation-duration: 2s;
+    background-image: linear-gradient(to bottom right, rgba(34, 255, 0, 0.604), rgba(0, 255, 221, 0.5));
+}
+p{
+    font-family: monospace;
+}
+@keyframes design{
+    from{
+  box-shadow: 5px 5px;transform: scale(1);}
+  to {
+  box-shadow: 10px 10px;transform: scale(1.2);}
+}
+
+.button { 
+    border-radius: 50px;
+    width: 100px;
+    height: 30px;
+    background-color: #ffd500; /* Green */
+    border: none;
+    height: 40px;
+    width: 110px;
+    color: rgb(0, 0, 0);
+    /* padding: 15px 32px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+.button:hover { 
+    animation-name: submit;
+    animation-duration: 5s;
+ box-shadow: 10px 10px
+}   
+
+@keyframes submit{
+    from{
+    background-image: linear-gradient(to bottom right, rgb(255, 170, 0), #ffd500);
+  box-shadow: 5px 5px;;}
+  to {
+    background-image: linear-gradient(to bottom right, rgb(255, 239, 64), #ffd500);
+  box-shadow: 10px 10px;}
+}

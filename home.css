@@ -1,0 +1,246 @@
+h1{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 45px;
+}
+.gmail:hover {
+    color: rgb(241, 59, 59);
+}
+
+.header{
+  display: flex;
+    /* position:static; */
+    /* display: flex; */
+    width: 100%;
+    height:fit-content;
+     /* background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.743), rgb(0, 255, 149)); */
+    text-align: center;
+}
+.cardbg{
+     background-image: url("images/self.jpg");
+    background-size: 100%;
+}
+body{
+    background-color: rgba(251, 255, 211, 0.604);
+    display:-moz-grid;
+}
+span {
+  padding-top: 4%;
+  align-items: center;
+  display: block;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 45px;
+  /* position: ; */
+    /* font-family: "Alliance No.1",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji" */
+    /* padding: 5px; */
+    width: 150%;
+    height: 100%;
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 10px;
+    /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.555), 0 6px 20px 0 rgba(0, 0, 0, 0.618); */
+        background-image: linear-gradient(to bottom right, rgba(72, 0, 255, 0.743), #00ffbb);
+        /* background-color: #ffffff; */
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.logob{
+position: relative;
+align-self: flex-end;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.container2{
+   border-radius: 5%;
+   margin: 2%;
+    overflow-x: scroll;
+    display: flex;
+    /* display: none; */
+   background: #3f1500;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.576), 0 6px 20px 0 rgba(0, 0, 0, 0.639);
+/*    background-image: url("images/self.jpg"); */
+   
+    /* background-size: 30%; */
+  /* opacity: 0.8; */
+}
+.search {
+    width: 1700px;
+    height: 30px;
+}
+img{
+  border-radius: 25px;
+    height: 100px;
+    width: 100px;
+}
+.cards{
+    transition: ease-out 0.5s;
+    margin-left: 14%;
+    margin-right: 80px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+    align-items: center;
+    border-radius: 10%;
+    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.798), rgba(172, 173, 146, 0.833));
+    width: 100px;
+    height: fit-content;
+    border: #111;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cards:hover{
+    transform: scale(1.2);   
+    /* transform: translateY(-2rem); */
+    box-shadow: 0 16px 25px 0 rgb(0, 0, 0), 0 16px 25px 0 rgb(0, 0, 0);
+    background-image: linear-gradient(to bottom right, rgba(255, 157, 0, 0.743), #f6ff0091);
+}
+.title{
+  position: relative;
+  display: inline-block;
+width: 100%;
+ background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.764), #000000b8);
+ /* animation-name: glow; */
+ animation-duration: 2s;
+ animation-iteration-count: infinite;
+  color: white;
+  padding-bottom: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+@keyframes glow{
+    from{
+    background-image: linear-gradient(to bottom right, rgba(0, 21, 255, 0.826), #00349ddc);
+  box-shadow: 5px 5px;;}
+  to {
+    background-image: linear-gradient(to bottom right, #3300ffd3, rgba(0, 21, 255, 0.812));
+  box-shadow: 10px 10px;}
+}
+
+
+.footer-dark {
+    padding:30px 0;
+    color:#c1d0da;
+    background-color:#000000;
+  }
+
+  .footer-dark ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-dark ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+  }
+
+  .footer-dark .copyright {
+    text-align: center;
+    padding-top:5px;
+    opacity:0.8;
+    font-size:20px;
+    margin-bottom:0;
+  }
+  
+  .button { 
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #ff88008c; /* Green */
+    border: none;
+    color: rgba(0, 0, 0, 0.562);
+    /* padding: 15px 32px; */
+    text-align: center;
+    display: inline-block;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+.button:hover { 
+  animation-name: submit;
+  animation-duration: 2s;
+  box-shadow: 10px 10px;
+ background-color:rgb(0, 255, 85);
+}   
+  .buttonblue { 
+    
+    border-radius: 10px;
+    background-color: #00ffc88c; /* Green */
+    border: none;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.562);
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+.buttonblue:hover { 
+  transform: scaleY(-1rem);
+    animation-name: submit;
+    animation-duration: 2s;
+ box-shadow: 10px 10px
+}   
+
+
+@keyframes submit{
+    from{
+    background-image: linear-gradient(to bottom right, rgb(255, 170, 0), #ffd500);
+  box-shadow: 5px 5px;;}
+  to {
+    background-image: linear-gradient(to bottom right, rgb(255, 239, 64), #ffd500);
+  box-shadow: 10px 10px;}
+}
+.oops{
+    background-image: 
+    url('images/oops.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-position-y:center;
+    height: 600px;
+}

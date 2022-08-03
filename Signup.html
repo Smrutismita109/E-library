@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign Up|| Coding Noobs</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+    <div class="card-top">
+        <h1>WELCOME TO DIVINE KNOWLEDGE LIBRARY</h1>
+    </div>
+    <div class="container">
+
+        <fieldset>
+            <form action="">
+                <!-- server address keliye-->
+                <h1 class="signup"> Sign-Up</h1>
+                <p class="name1">
+                    First Name:<input type="text" name="firstname" placeholder="First Name" required oninvalid="this.setCustomValidity('First Name is Must') 
+                    " onvalid="this.setCustomValidity('')" onchange="this.setCustomValidity('')"></p>
+                <p class="name2">
+                    Last Name&nbsp;:<input type="text" name="lastname" placeholder="Last Name" required oninvalid="this.setCustomValidity('Last Name is Must') 
+                    " onvalid="this.setCustomValidity('')" onchange="this.setCustomValidity('')"></p>
+                <p class="email">
+                    Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input type="email" name="Email" placeholder="Email@gmail.com"
+                        required></p>
+                <p class="password">
+                    Password&nbsp;&nbsp;:<input type="password" name="Email" placeholder="***********"
+                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                        title="For Strong Passcode:::Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+                        required minlength="8">
+                </p>
+                <p class="member"> Already a Member?<a href="login.html" class="login">Log In</a></p>
+                <p class="signup">
+                    <a href="home.html">
+                        <input class="button" type="submit" value="Sign-Up">
+                    </a>
+                </p>
+
+
+            </form>
+        </fieldset>
+    </div>
+</body>
+
+</html>

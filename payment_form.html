@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="payment_form.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+</head>
+
+<body>
+    <h1><span>Payment Form</span></h1>
+    <p>
+        <span2>Required fields are followed by *</span2>
+    </p>
+    <div class="container">
+
+        <div class="general">
+            <form action="">
+
+                <h2>General Information</h2>
+                <p><span>Name:* </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name"
+                        required></p>
+                <p><span>Book Name:* </span>&nbsp;&nbsp;&nbsp;<input type="text" name="name" required></p>
+                <p><span>Author:* </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" required>
+                </p>
+                <p><span>Email *: </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="email" id="email"
+                        required>
+                </p>
+                <p><span>Pincode *</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="pincode"
+                        id="pincode" required></p>
+        </div>
+        <hr>
+        <div class="general">
+            <h2>Payment Information</h2>
+            <p>
+                <span2>Card type*</span2>:
+                <select class="card" name="card_type" class="card_type" re>
+                    <option value="">--Select a card type--</option>
+                    <option value="Visa">Visa</option>
+                    <option value="Mastercard">Mastercard</option>
+                    <option value="Rupay">Rupay</option>
+                </select>
+            </p>
+            <p>
+                <span2>Card number*</span2>&nbsp;&nbsp;&nbsp;&nbsp; <input type="number" name="card_number"
+                    id="card_number" required>
+            </p>
+            <p>
+                <span2>Expiraton date*</span2>
+                <input type="date" name="exp_date" id="exp_date" required>
+            </p>
+            <p>
+                <span2>CVV*</span2> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+                    type="password" name="CVV" id="CVV" required>
+            </p>
+            <input class="button" type="submit" value="PAY NOW">
+
+            </form>
+        </div>
+    </div>
+        
+    </div>
+</body>
+
+</html>
